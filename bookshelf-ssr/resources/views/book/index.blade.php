@@ -34,4 +34,4 @@
       <div><a href="/book/create" class="btn btn-default">新規作成</a></div>
     </div>
   </div>
-  @endsection
+@endsection

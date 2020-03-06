@@ -19,3 +19,7 @@ Route::get('/', function () {
 
 // REST
 Route::resource('book', 'BookController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
